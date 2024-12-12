@@ -10,9 +10,9 @@ export default defineConfig({
     react(),
     legacy()
   ],
-  // optimizeDeps: {
-  //   exclude: ['web-TXZRKSZZ'], // Exclude the problematic dependency
-  // },
+  build: {
+    outDir: 'www', // output directory to www for Capacitor compatibility
+  },
   test: {
     globals: true,
     environment: 'jsdom',
