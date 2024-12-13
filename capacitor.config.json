@@ -1,6 +1,7 @@
 {
-    "appId": "0fb1894a",
-    "appName": "_app_Week16_Ionic",
+    "appId": "8af0cdad",
+    "appName": "SQL_SQuirreL_App",
+    "webDir": "www",
     "bundledWebRuntime": false,
     "npmClient": "npm"
   }
