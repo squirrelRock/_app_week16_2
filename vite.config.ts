@@ -11,7 +11,17 @@ export default defineConfig({
     legacy()
   ],
   build: {
-    outDir: 'www', // output directory to www for Capacitor compatibility
+    outDir: 'www', 
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // chunk splitting
+          vendor: ['react', 'react-dom'], // split React and ReactDOM into a vendor chunk
+          utility: ['lodash'], // split utility libraries (if used)
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000, 
   },
   test: {
     globals: true,
