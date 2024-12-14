@@ -79,16 +79,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
   }
   
-  /* Image Container
-  .image-container {
-    height: 225px; 
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f8f8f8; 
-  }
-   */
+
  
 
   /* Image Container */
@@ -119,3 +110,73 @@ body {
     margin: 10px 0;
     text-align: center;
   }
+
+   /* Modal Styling */
+.custom-modal {
+  --background-color: #061636 !important; /* Consistent modal background */
+
+}
+
+.modal-content {
+  padding: 20px;
+  text-align: left;
+}
+
+
+.modal-content h2 {
+  font-family: "Indie Flower", serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #d99f7d !important;
+  text-align: center;
+}
+
+.modal-content p {
+  font-family: "Indie Flower", serif;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #c2c8bf;
+}
+
+.modal-buttons {
+  font-family: "Indie Flower", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.1em !important;
+  color: #033204 !important;
+  background-color: #ffffff !important; 
+  text-transform: none !important;
+  font-size: 16px !important; 
+  border-radius: 5px; /* Optional for rounded corners */
+}
+
+.modal-buttons:hover {
+  background-color: #f1e9a9; /* Optional hover effect */
+}
+  
+strong {
+  font-weight: bold !important;
+}
+
+.rock-title {
+  color: #d7c9c9;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Merienda", cursive;
+  letter-spacing: 0.1em;
+}
+
+.sub-title {
+  color: #340404;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  letter-spacing: 0.1em;
+}
+
+
+

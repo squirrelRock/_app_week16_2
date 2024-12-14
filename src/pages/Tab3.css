@@ -1,5 +1,64 @@
 
 
+/* Page Container */
+
+body {
+
+  font-weight: 500;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*  merienda-thick: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+
+.merienda-thick {
+  font-family: "Merienda", cursive;
+  font-size: 1.9em;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.merienda-thin {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+/* Image Container */
+.image-container {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 500;
+  padding: 10px; 
+  height: auto; 
+  background-color: #e7e4f1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px; ; 
+}
+
+/* Video Image */
+.video-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 5px ; 
+}
+
+
+/*----------*/
+
 .page-container {
     background-color: #f3f1ef;
     min-height: 100vh;
@@ -23,14 +82,33 @@
   .grid-item {
     text-decoration: none;
   }
+
+/* Card Styling */
+
+.card-title {
+  font-size: 18px;
+  color: #5a3d1a;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s, box-shadow 0.2s; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
   
-  .card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-  }
   
   .video-container {
     width: 100%;
@@ -45,9 +123,71 @@
     border-radius: 10px;
   }
   
-  .card-title {
-    font-size: 18px;
-    color: #5a3d1a;
-    margin-top: 10px;
-    text-align: center;
+
+
+
+  .chip-title {
+    color: #d7c9c9;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Merienda", cursive;
+    letter-spacing: 0.1em;
   }
+
+  /*-------------------*/
+
+  /* Modal Styling */
+.custom-modal {
+  --background-color: #061636 !important; /* Consistent modal background */
+
+}
+
+.modal-content3 {
+  padding: 20px;
+  text-align: left;
+}
+
+
+.modal-content3 h2 {
+  font-family: "Indie Flower", serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.modal-content3 p {
+  font-family: "Indie Flower", serif;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #c2c8bf;
+}
+
+.modal-buttons {
+  font-family: "Indie Flower", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.1em !important;
+  color: #033204 !important;
+  background-color: #ffffff !important; 
+  text-transform: none !important;
+  font-size: 16px !important; 
+  border-radius: 5px; /* Optional for rounded corners */
+}
+
+.modal-buttons:hover {
+  background-color: #f1e9a9; /* Optional hover effect */
+}
+  
+strong {
+  font-weight: bold !important;
+}
+
+.ion-padding-y-05rem {
+  padding-top: 0.5rem; /* Equivalent to Bootstrap py-2 */
+  padding-bottom: 0.5rem;
+  color:#a49105
+}

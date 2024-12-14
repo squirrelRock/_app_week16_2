@@ -38,7 +38,7 @@ body {
   .photo-wrapper {
     position: relative;
     width: 100%; 
-    aspect-ratio: 1 / 1; 
+   aspect-ratio: 1/1;
     overflow: hidden;
     border: 5px solid white; /* frame */
     border-radius: 10px; 
@@ -69,12 +69,13 @@ body {
   
   .delete-button ion-icon {
     font-size: 16px; /* smaller than button */
-    color: white;
+    color: rgb(75, 75, 81);
     z-index: 2;
   }
 
   .modal-content {
     padding: 20px;
+    background: #ffffff;
     text-align: center;
   }
   
@@ -92,7 +93,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: .1em;
-    color: #048708;
+    color: #290703;
   }
   
   .modal-buttons ion-button {
@@ -103,4 +104,12 @@ body {
     color: #333 !important; 
     text-transform: none !important;
     font-size: 16px !important; 
+  }
+
+  .rock-title {
+    color: #d7c9c9;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Merienda", cursive;
+    letter-spacing: 0.1em;
   }
