@@ -1,6 +1,5 @@
 @import '../theme/global.css';
 
-/* Page Container */
 
 body {
 
@@ -35,7 +34,7 @@ body {
 
 
 
-/* Image Container */
+/* -----image container ------------*/
 .image-container {
   font-family: "Sue Ellen Francisco", cursive;
   font-weight: 500;
@@ -48,7 +47,7 @@ body {
   border-radius: 10px 10px 0px 0px; ; 
 }
 
-/* Video Image */
+/* this is the photo submission */
 .video-image {
   width: 100%;
   height: auto;
@@ -83,7 +82,7 @@ body {
     text-decoration: none;
   }
 
-/* Card Styling */
+/* ---------card styles  -------*/
 
 .card-title {
   font-size: 18px;
@@ -136,11 +135,8 @@ body {
 
   /*-------------------*/
 
-  /* Modal Styling */
-.custom-modal {
-  --background-color: #061636 !important; 
+  /*------------- modal -------- */
 
-}
 
 .modal-content3 {
   padding: 20px;
@@ -148,23 +144,23 @@ body {
 }
 
 
-.modal-content h2 {
+.modal-content3 h2 {
   font-family: "Indie Flower", serif;
   font-weight: 700;
   letter-spacing: 0.1em;
   margin-bottom: 10px;
   font-size: 24px;
-  color: #333;
+  color: #f1f1f6;
   text-align: center;
 }
 
-.modal-content p {
+.modal-content3 p {
   font-family: "Indie Flower", serif;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.1em;
-  color: #c2c8bf;
+  color: #c7d6c0;
 }
 
 .modal-buttons {
@@ -175,11 +171,11 @@ body {
   background-color: #ffffff !important; 
   text-transform: none !important;
   font-size: 16px !important; 
-  border-radius: 5px; /* Optional for rounded corners */
+  border-radius: 5px; 
 }
 
 .modal-buttons:hover {
-  background-color: #f1e9a9; /* Optional hover effect */
+  background-color: #f1e9a9; 
 }
   
 strong {
@@ -187,7 +183,7 @@ strong {
 }
 
 .ion-padding-y-05rem {
-  padding-top: 0.5rem; /* Equivalent to Bootstrap py-2 */
+  padding-top: 0.5rem; 
   padding-bottom: 0.5rem;
-  color:#a49105
+  
 }

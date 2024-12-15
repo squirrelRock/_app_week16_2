@@ -16,10 +16,10 @@ import './Tab3.css';
 
 const Tab3: React.FC = () => {
   const [dataset, setDataset] = useState<any[]>([]);
-  const [selectedChipmunk, setSelectedChipmunk] = useState<any | null>(null); // State for selected chipmunk
+  const [selectedChipmunk, setSelectedChipmunk] = useState<any | null>(null); // creating state for selected chipmunk enttry
   const dataURL = "https://dev-kdurkin-sql.pantheonsite.io/wp-json/twentytwentyone-child/v1/chipEndpoint";
 
-  // Fetch the dataset
+  
   useEffect(() => {
     fetch(dataURL)
       .then(response => response.json())
@@ -41,7 +41,7 @@ const Tab3: React.FC = () => {
               <div
                 key={chipmunk.ID}
                 className="grid-item"
-                onClick={() => setSelectedChipmunk(chipmunk)} // Open modal with chipmunk details
+                onClick={() => setSelectedChipmunk(chipmunk)} // open modal with chipmunk details
               >
                 <div className="card">
                   <div className="image-container">
@@ -58,7 +58,7 @@ const Tab3: React.FC = () => {
           </div>
         </div>
 
-        {/* Modal for Chipmunk Details */}
+        {/* modal for chips  details */}
         <IonModal
   isOpen={!!selectedChipmunk}
   onDidDismiss={() => setSelectedChipmunk(null)}

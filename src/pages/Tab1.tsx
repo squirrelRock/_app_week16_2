@@ -16,10 +16,10 @@ import './Tab1.css';
 
 const Tab1: React.FC = () => {
   const [dataset, setDataset] = useState<any[]>([]);
-  const [selectedRock, setSelectedRock] = useState<any | null>(null); // State for selected rock
+  const [selectedRock, setSelectedRock] = useState<any | null>(null); // setting my state for selected rock
   const dataURL = "https://dev-kdurkin-sql.pantheonsite.io/wp-json/twentytwentyone-child/v1/rockSQLdbEndpoint";
 
-  // Fetch data on mount
+ 
   useEffect(() => {
     fetch(dataURL)
       .then((response) => response.json())
