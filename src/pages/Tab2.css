@@ -81,7 +81,6 @@ body {
   
   .modal-content h2 {
     font-family: "Indie Flower", serif;
-    color: #7b180d !important;
     font-weight: 700;
     letter-spacing: .1em;
     margin-bottom: 10px;
@@ -94,7 +93,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: .1em;
-    color: #290703 !important;
+    color: #290703;
   }
   
   .modal-buttons ion-button {
