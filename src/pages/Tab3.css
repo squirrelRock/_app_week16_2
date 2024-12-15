@@ -1,4 +1,4 @@
-
+@import '../theme/global.css';
 
 /* Page Container */
 
@@ -138,7 +138,7 @@ body {
 
   /* Modal Styling */
 .custom-modal {
-  --background-color: #061636 !important; /* Consistent modal background */
+  --background-color: #061636 !important; 
 
 }
 
@@ -148,7 +148,7 @@ body {
 }
 
 
-.modal-content3 h2 {
+.modal-content h2 {
   font-family: "Indie Flower", serif;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -158,7 +158,7 @@ body {
   text-align: center;
 }
 
-.modal-content3 p {
+.modal-content p {
   font-family: "Indie Flower", serif;
   margin-bottom: 20px;
   font-size: 16px;

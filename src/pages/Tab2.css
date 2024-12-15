@@ -50,11 +50,11 @@ body {
     object-fit: cover; 
   }
   
-  .delete-button {
+  /* .delete-button {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(255, 7, 7, 0.7); 
     color: white;
     border-radius: 3%; 
     width: 40px; 
@@ -68,9 +68,31 @@ body {
   }
   
   .delete-button ion-icon {
-    font-size: 16px; /* smaller than button */
-    color: rgb(75, 75, 81);
+    font-size: 1em; 
+    color: rgb(110, 7, 7);
     z-index: 2;
+  } */
+
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 7, 7, 0.4); 
+    color: white;
+    border-radius: 20%; /* Circular button */
+ 
+    padding: 0; /* Remove padding to avoid unnecessary expansion */
+    display: flex;
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Center the icon vertically */
+    z-index: 1;
+    border: none;
+    cursor: pointer; /* Show a pointer cursor */
+  }
+  
+  .delete-button ion-icon {
+    font-size: 1.5em; /* Adjust the icon size for better visibility */
+    color: white; /* Ensure it contrasts with the button background */
   }
 
   .modal-content {

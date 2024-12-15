@@ -1,4 +1,6 @@
-/* Page Container */
+@import '../theme/global.css';
+
+
 
 body {
 
@@ -139,18 +141,19 @@ body {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.1em;
-  color: #c2c8bf;
+  /* color: #c2c8bf !important; */
 }
 
 .modal-buttons {
   font-family: "Indie Flower", serif !important;
   font-weight: 400 !important;
   letter-spacing: 0.1em !important;
-  color: #033204 !important;
-  background-color: #ffffff !important; 
+  color: #c7e0c8 !important;
+  /* background-color: #ffffff !important;  */
   text-transform: none !important;
   font-size: 16px !important; 
-  border-radius: 5px; /* Optional for rounded corners */
+  border-radius: 5px;
+
 }
 
 .modal-buttons:hover {

@@ -30,7 +30,7 @@ const Tab1: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle className="rock-title">SQL for SQuirreLs Bazaar</IonTitle>
+          <IonTitle className="rock-title">SQL for SQuirreLs</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>

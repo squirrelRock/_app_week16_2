@@ -1,0 +1,56 @@
+/* global.css */
+body {
+    font-family: "Merienda", cursive; /* Shared font */
+    font-weight: 500;
+  }
+
+
+  
+  .button-primary {
+    --background: #333333;
+    --color: #ffffff;
+  }
+  
+  
+  .modal-content {
+    padding: 20px;
+    text-align: left;
+    --ion-background-color: #061636;
+    --ion-text-color: #ffffff;
+  }
+  
+  .modal-content h2,
+  .modal-buttons {
+    color: #ffffff; /* Ensure consistent light text */
+  }
+  
+  .card-title {
+    font-size: 18px;
+    color: #5a3d1a; /* Shared title color */
+  }
+  
+  /* .photo-container, .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  } */
+
+  /* Shared styles */
+body {
+    font-family: 'Merienda', cursive;
+    font-weight: 500;
+  }
+  
+
+  /* Utility classes */
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .full-screen-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

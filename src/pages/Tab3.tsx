@@ -30,12 +30,12 @@ const Tab3: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle className="chip-title">SQL SQuirreL Photo Competition</IonTitle>
+          <IonTitle className="chip-title">SQL Photo Contest</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <div className="page-container">
-          <h1 className="page-title">Photo Contestants</h1>
+          <h1 className="page-title">Photo Submissions</h1>
           <div className="grid-container">
             {dataset.map((chipmunk) => (
               <div
@@ -86,7 +86,7 @@ const Tab3: React.FC = () => {
                   </p>
                   <hr/>
                   <p>Thank you for considering my submission.</p>
-                  <p>sincerely, {selectedChipmunk.first_name} {selectedChipmunk.last_name}</p>
+                  <p>sincerely, <strong>{selectedChipmunk.first_name} {selectedChipmunk.last_name}</strong></p>
                   <IonButton className="modal-buttons" expand="block" onClick={() => setSelectedChipmunk(null)}>
                     Close
                   </IonButton>

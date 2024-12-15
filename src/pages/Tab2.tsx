@@ -21,6 +21,7 @@ import { useState } from 'react';
 import { usePhotoGallery } from '../hooks/usePhotoGallery';
 import './Tab2.css';
 
+
 const Tab2: React.FC = () => {
   const { photos, takePhoto, deletePhoto } = usePhotoGallery();
   const [showModal, setShowModal] = useState(false);
@@ -43,7 +44,7 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle className="rock-title">SQL for SQuirreLs Photo Gallery</IonTitle>
+          <IonTitle className="rock-title">SQL for SQuirreLs</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
