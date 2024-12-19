@@ -13,8 +13,8 @@ body {
     font-style: normal;
   }
 
-  /*  merienda-thick: Use a unique and descriptive class name
-  // <weight>: Use a value from 300 to 900 */
+  /*  my custom font instructions - merienda-thick: Use a unique and descriptive class name
+   <weight>: Use a value from 300 to 900 */
   
   .merienda-thick {
     font-family: "Merienda", cursive;
@@ -41,7 +41,7 @@ body {
     box-sizing: border-box;
   }
   
-  /* Page Title */
+
   .page-title {
     font-family: "Merienda", serif;
     font-size: 1.8em;
@@ -52,7 +52,7 @@ body {
     color: #5a3d1a;
   }
   
-  /* Grid Layout */
+  /* the grid layout */
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -64,7 +64,7 @@ body {
     text-decoration: none;
   }
   
-  /* Card Styling */
+  /* some card styling */
   .card {
     background-color: #ffffff;
     border-radius: 10px;
@@ -84,7 +84,7 @@ body {
 
  
 
-  /* Image Container */
+  /* image container */
 .image-container {
     font-family: "Sue Ellen Francisco", cursive;
     font-weight: 500;
@@ -97,15 +97,14 @@ body {
     border-radius: 10px 10px 0px 0px; ; 
   }
   
-  /* Rock Image */
+  /* the rock  */
   .rock-image {
     width: 100%;
     height: auto;
     object-fit: cover; 
     border-radius: 5px ; 
   }
-  
-  /* Card Title */
+
   .card-title {
     font-size: 18px;
     color: #5a3d1a;
